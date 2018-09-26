@@ -108,7 +108,7 @@ const app = (src: Stream<string>) =>
             ["div",
                 ["h3", "XML/HTML source",
                     ["small.fw1.ml2", "(must be well formed!)"]],
-                ["textarea.mr2.f7.code.bg-light-yellow",
+                ["textarea.mr2.f7.code.bg-light-yellow.lh-copy",
                     {
                         cols: 72,
                         rows: 25,
@@ -130,7 +130,7 @@ const app = (src: Stream<string>) =>
             ],
             ["div",
                 ["h3", "Parsed Hiccup / JSON"],
-                ["textarea.f7.code",
+                ["textarea.f7.code.lh-copy",
                     {
                         cols: 72,
                         rows: 25,
